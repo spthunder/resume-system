@@ -6,7 +6,6 @@
             <div>|</div>
             <div class="email">{{ Info.email }}</div>
         </div>
-
         <div class="birth">{{ Info.birth }}</div>
     </div>
 </template>
@@ -24,18 +23,23 @@
         justify-content: center;
         align-items: center;
         font-size: 1rem;
+        font-family: "宋体";
         .name{
             width: 100%;
             font-size: 1.5rem;
-            font-weight: bold;
+            font-weight: bolder;
         }
         .contact{
             display: flex;
             justify-content: row;
             margin-top: 0.5rem;
+            font-weight: bold;
             .tel{
                 margin-right: 0.5rem;
             }
+        }
+        .birth{
+            font-weight: bold;
         }
     }
 </style>

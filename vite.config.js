@@ -14,4 +14,8 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
   ],
+  server: {
+    hmr: true,  //热更新
+    port: 80   //配置端口
+  }
 })

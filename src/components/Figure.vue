@@ -53,6 +53,8 @@ import { Plus } from '@element-plus/icons-vue'
             height: 33mm;
         }
         .avatar-uploader-icon {
+            position: absolute;
+            top: 40%;
             font-size: 28px;
             color: #8c939d;
             text-align: center;
